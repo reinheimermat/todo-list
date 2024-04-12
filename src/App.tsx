@@ -1,7 +1,9 @@
+import { Input } from './components/input'
+
 function App() {
   return (
     <>
-      <h1 className="bg-zinc-300">Hello World</h1>
+      <Input type="text" placeholder="Adicione uma nova tarefa" />
     </>
   )
 }
