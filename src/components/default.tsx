@@ -7,8 +7,8 @@ export function Default() {
         <NotepadText className="size-12 text-grey-400" />
       </div>
       <div>
-        <strong>Você ainda não tem tarefas cadastradas</strong>
-        <p>Crie tarefas e organize seus itens a fazer</p>
+        <strong>You do not have tasks registered yet</strong>
+        <p>Create tasks and organize your to-do items</p>
       </div>
     </div>
   )
