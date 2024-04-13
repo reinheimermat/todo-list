@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Ignite Feed
+[![Banner](./src/assets/cover.jpg)](#)
+***Frontend challenge of my React JS training.***
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Status: Finished... ✅
 
-Currently, two official plugins are available:
+## Technologies 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Expanding the ESLint configuration
+## Features 💡
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✅ **ADD TASKS**
 
-- Configure the top-level `parserOptions` property like this:
+✅ **DELETE TASKS**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+✅ **CHECK AND UNCHECK TASKS**
+
+✅ **SHOW PROGRESS OF TAKS**
+
+## How do use the project ⚙️
+
+### 1. Clone repository
+```sh
+git clone https://github.com/reinheimermat/todo-list
+```
+### 2. Install dependencies
+```sh
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 3. Run local project
+```sh
+npm run dev
+```
+### 4. Access the project
+```sh
+http://localhost:5173/
+```
+
+## License 📝
+
+[![licence](https://img.shields.io/github/license/reinheimermat/discover.svg)](https://github.com/Ileriayo/markdown-badges/blob/master/LICENSE)
+
+## LINKS 🔗
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reinheimermat/)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contatoreinheimer@gmail.com)
+
+<center><img style="width: 100%" src="./src/assets/print.jpeg"></center>
